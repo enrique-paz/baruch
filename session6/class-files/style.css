@@ -1,2 +1,78 @@
 @charset "UTF-8";
 /* CSS DOCUMENT */
+
+* {
+  font-size:100%;
+  font-weight:normal;
+  margin:0;
+  padding:0;
+}
+body {
+  font-family:sans-serif;
+  line-height:24px;
+}
+header {
+  padding-top:75px;
+  padding-bottom:40px;
+  text-align:center;
+}
+nav {
+  margin-top:25px;
+  color:green;
+}
+nav a {
+  text-decoration:none;
+  color:green;
+  text-transform:uppercase;
+  padding-left:10px;
+  padding-right:10px;
+}
+nav a:hover {
+  color:white;
+  background-color:gold;
+}
+#banner {
+  text-align:center;
+  padding-top:200px;
+  padding-bottom:200px;
+  background-image:url(images/hero.png);
+  background-size:cover;
+}
+h1 {
+  font-size:36px;
+  text-transform:uppercase;
+  font-weight:bold;
+  color:white;
+}
+h2 {
+  font-size:24px;
+  font-style:italic;
+  color:white;
+  font-family:serif;
+}
+h3 {
+  color:brown;
+  font-size:32px;
+  text-transform:uppercase;
+  text-align:center;
+  font-weight:bold;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+h4 {
+  color:green;
+  font-weight:bold;
+  font-size:24px;
+  margin-top:15px;
+  margin-bottom:15px;
+}
+main {
+  width:1280px;
+  margin-right:auto;
+  margin-left:auto;
+}
+main div {
+  width:600px;
+  display:inline-block;
+  vertical-align:top;
+}
